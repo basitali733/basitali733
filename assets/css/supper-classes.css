@@ -1,0 +1,53 @@
+.wrapper{
+    max-width: 1350px;
+    margin: 0 auto;
+}
+.container-1556{
+     max-width: 1556px;
+     margin: 0 auto;
+ }
+.container-1600{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+@font-face {
+    src: url("../fonts/HYPER BLOCK SOLID.otf");
+    font-family:HYPER BLOCK SOLID;
+}
+.hyper-solid-font{
+    font-family:HYPER BLOCK SOLID;
+}
+h1{
+    font-weight: 400;
+    font-size: 108px;
+    line-height: 125px;
+    letter-spacing: 0;
+}
+h2{
+    font-size: 88px;
+    line-height: 101px;
+    letter-spacing: 0;
+}
+h3{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+}
+h4{
+    font-size: 25px;
+    line-height: 29px;
+}
+.text-shadow{
+    text-shadow: 8px 8px #fff, -6px -8px #fff, 8px -9px #fff, -6px 8px #fff;
+}
+.text-black-outline{
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #000;
+}
+.bg-1BADFF{
+    background: #1BADFF;
+}
+.bg-FFC21B{
+    background: #FFC21B;
+}

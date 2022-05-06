@@ -1,0 +1,668 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@600&family=Poppins:wght@500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    background: #25273E;
+
+}
+/*HEADER AND BANNER SECTION*/
+.header-banner-con{
+    background: linear-gradient(180deg, rgba(37, 39, 62, 0) 0%, #25273E 100%);
+}
+.header-banner-con:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../image/banner-img.png) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+}
+.header-banner-con:before {
+    content: "";
+    position: absolute;
+    top: 318px;
+    right: 0;
+    width: 319px;
+    height: 320px;
+    background: url(../image/about-img5.png) no-repeat center;
+    background-size: cover;
+}
+.header-banner-inner-con:before{
+    content: "";
+    position: absolute;
+    top: 318px;
+    left: 0;
+    width: 319px;
+    height: 320px;
+    background: url(../image/about-img1.png) no-repeat center;
+    background-size: cover;
+}
+.banner-con:before{
+    content: "";
+    position: absolute;
+    top: 320px;
+    left: 118px;
+    width: 319px;
+    height: 320px;
+    background: url(../image/about-img2.png) no-repeat center;
+    background-size: cover;
+ }
+.banner-con:after{
+    content: "";
+    position: absolute;
+    top: 320px;
+    right: 118px;
+    width: 319px;
+    height: 320px;
+    background: url(../image/about-img4.png) no-repeat center;
+    background-size: cover;
+}
+.discord-tag:after {
+    content: "";
+    position: absolute;
+    top: 247px;
+    width: 319px;
+    height: 320px;
+    background: url(../image/about-img3.png) no-repeat center;
+    background-size: cover;
+    right: 12px;
+}
+.nav-link{
+    font-size: 28px;
+}
+.contact-btn a{
+    padding: 26px 42px;
+    font-size: 25px;
+    line-height: 29px;
+    font-family:HYPER BLOCK SOLID;
+    display: inline-block;
+    background: #7351FF;
+    border-radius: 30px;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 7px 8px #fff;
+}
+.nav-item {
+    padding: 0 40px;
+}
+.social-icon ul li {
+    padding: 0 5px;
+}
+.contact-btn {
+    margin-left: 30px;
+}
+.navbar{
+    padding: 39px 0;
+}
+.social-icon{
+    margin-left: 19px;
+}
+.banner-con h1:nth-child(2),
+.banner-con h1:nth-child(3),
+.banner-con h1:last-child{
+    margin: 0 0 0 20px;
+}
+.banner-con h1 {
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #000;
+}
+.banner-title{
+    margin-bottom: 16px;
+}
+.banner-con{
+    padding-top: 60px;
+    padding-bottom: 92px;
+}
+.discord-tag {
+    background: url(../image/discord-tag.png) no-repeat center;
+    background-size: cover;
+    display: inline-block;
+    width: 386px;
+    height: 103px;
+}
+.discord-inner-tag{
+    position: absolute;
+    top: 50%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+}
+.discord-inner-tag figure{
+    padding-right: 13px;
+}
+.banner-con p{
+    margin-bottom: 32px;
+}
+/*HEADER AND BANNER SECTION*/
+/*FAR SECTION*/
+.far-content-con h2{
+    margin-bottom: 18px;
+}
+.far-con::before {
+    content: "";
+    width: 372px;
+    height: 372px;
+    position: absolute;
+    background: #98FFCE;
+    filter: blur(300px);
+    bottom: 0;
+    right: 0;
+}
+.far-content-con p{
+    padding-right: 48px;
+}
+.far-title{
+    margin-bottom: 18px;
+}
+.far-title h2:nth-child(2),
+.far-title h2:nth-child(3),
+.far-title h2:nth-child(4){
+    margin-left: 25px;
+}
+.far-con{
+    padding: 490px 0 140px;
+}
+.far-con:after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 452px;
+    background: url(../image/nest-img.png) no-repeat center right;
+    background-size: contain;
+    width: 1104px;
+    height: 445px;
+}
+/*FAR SECTION*/
+/*FEATURE SECTION*/
+.feature-con{
+    background: url("../image/feature-img.png") no-repeat center;
+    background-size: cover;
+    height: 473px;
+}
+/*FEATURE SECTION*/
+/*TRIPPY SECTION*/
+.trippy-con .row{
+    margin-bottom: 52px;
+}
+.trippy-con::after {
+    content: "";
+    position: absolute;
+    width: 372px;
+    height: 372px;
+    left: 0px;
+    top: 246px;
+    background: #FF6565;
+    filter: blur(300px);
+}
+.trippy-con::before {
+    content: "";
+    position: absolute;
+    width: 372px;
+    height: 372px;
+    right: 0px;
+    bottom: -50px;
+    background: #9B78FF;
+    filter: blur(300px);
+}
+.trippy-con{
+    padding: 130px 0 194px;
+}
+.trippy-title h2:nth-child(2){
+    margin: 0 25px;
+}
+.trippy-title{
+    margin-bottom: 28px;
+}
+/*TRIPPY SECTION*/
+/*FAMILIES SECTION*/
+.families-box-item figure{
+    margin-bottom: 18px;
+}
+.families-box-item figure img{
+    background-image: linear-gradient(180deg, #C246BB 0%, #914ED0 50%, #535AE9 100%);
+    padding: 11px;
+}
+.families-box-item h4{
+    margin-bottom: 10px;
+}
+.families-box-item p{
+    padding: 0 38px;
+}
+.families-con h2{
+    margin-bottom: 118px;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #000;
+}
+.families-box-con .row{
+    margin-bottom: 45px;
+}
+.families-con{
+    padding-bottom: 121px;
+}
+/*FAMILIES SECTION*/
+/*join-con*/
+.join-con{
+    background: #444661;
+    padding: 106px 0;
+}
+.join-con h2{
+    margin-bottom: 40px;
+}
+.join-con p{
+    margin-bottom: 55px;
+}
+.join-btn a{
+    padding: 18px 32px 17px 33px;
+    background: #25273E;
+    color: #fff;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 35px;
+    text-decoration: none;
+    font-family: 'Exo', sans-serif;
+    display: inline-block;
+}
+.join-btn a figure {
+    margin-right: 14px;
+}
+.join-inner-con{
+    width: 61%;
+    margin: 0 auto;
+}
+.join-inner-con h2:nth-child(2){
+    margin-left: 12px;
+}
+.join-title{
+    margin-bottom: 42px;
+}
+/*join-con*/
+/**** faq section ***/
+.faq-con .wrapper{
+    padding: 310px 0 560px;
+}
+.faq-inner-con:after,
+.faq-content-con:after{
+    content: "";
+    position: absolute;
+    width: 372px;
+    height: 372px;
+    left: 0px;
+    top: 50%;
+    background: #AAFFF0;
+    filter: blur(300px);
+}
+.faq-content-con:after{
+    left: auto;
+    right: 0;
+}
+.faq-con h2{
+    margin-bottom: 116px;
+}
+.faq-inner-con .card-header{
+    background: #303350;
+    border-radius:0;
+}
+.faq-inner-con .card-header button {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 27px;
+    color: #fff;
+    font-weight: 700;
+    padding: 45px 86px 46px 86px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+}
+.faq-inner-con .card-header button:focus{
+    outline: none;
+}
+.faq-inner-con .card{
+    margin-bottom: 26px;
+}
+.faq-inner-con .card-body{
+    background: #303350;
+    padding: 45px 86px 46px 86px;
+}
+.faq-inner-con .card-header button.collapsed:after,
+.faq-inner-con .card-header button:not(.collapsed):after{
+     content: "\f0d7";
+     position: absolute;
+     right: 86px;
+     top: 44px;
+     font-family: "Font Awesome 5 free";
+    transition: 0.6s ease-in-out;
+ }
+.faq-inner-con .card-header button:not(.collapsed):after{
+    transform: rotate(180deg);
+}
+.faq-tittle{
+    margin-bottom: 80px;
+}
+.faq-tittle:before{
+    content: "";
+    width: 349px;
+    height: 430px;
+    background: url(../image/faq-img.png) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    left: -181px;
+    top: -194px;
+}
+.faq-con:before{
+    content: "";
+    position: absolute;
+    background: url(../image/ston-img.png) no-repeat center;
+    background-size: cover;
+    width: 595px;
+    height: 491px;
+    bottom: 0;
+    left: 0;
+}
+.faq-con:after{
+    content: "";
+    position: absolute;
+    background: url(../image/faq-des-r-img.png) no-repeat center;
+    background-size: cover;
+    width: 438px;
+    height: 438px;
+    bottom: 0;
+    right: 0;
+}
+.faq-inner-con:before{
+    content: "";
+    position: absolute;
+    background: url(../image/faq-hand-img.png) no-repeat center;
+    background-size: cover;
+    width: 754px;
+    height: 448px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.faq-tittle h2:nth-child(2){
+    margin-left:25px;
+}
+/**** faq section ***/
+/*******join section********/
+.join-title:after{
+    content: "";
+    background: url(../image/star-img.png) no-repeat top right;
+    background-size: cover;
+    width: 104px;
+    height: 105px;
+    position: absolute;
+    top: -11px;
+    right: 172px;
+}
+.join-inner-con:after {
+    content: "";
+    width: 435px;
+    height: 624px;
+    background: url(../image/hand-img.png) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    bottom: -106px;
+    left: -562px;
+}
+/*******join section********/
+/*families section*/
+.families-con:after {
+    content: "";
+    width: 262px;
+    height: 313px;
+    background: url(../image/family-frame-img1.png) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.families-con:before {
+    content: "";
+    width: 284px;
+    height: 288px;
+    background: url(../image/family-frame-img2.png) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    bottom: 164px;
+    right: 0;
+    z-index: -1;
+}
+.families-title{
+    margin-bottom: 116px;
+}
+.families-title h2:nth-child(2){
+    margin: 0 12px;
+}
+.families-inner-con:after,
+.families-inner-con:before,
+.box-sahdow:after{
+    content: "";
+    width: 372px;
+    height: 372px;
+    position: absolute;
+    top: 321px;
+    left: 0;
+    background: rgba(40, 203, 255, 0.71);
+    filter: blur(300px);
+}
+.families-inner-con:after{
+    top: auto;
+    bottom: 0;
+    background: #7CC784;
+    filter: blur(300px);
+}
+.box-sahdow:after{
+    right: 0;
+    left: auto;
+    bottom: 0;
+    top: auto;
+    background: #FF68AB;
+    filter: blur(300px);
+}
+/*families section*/
+/*******roadmap section********/
+.skill-inner-bar{
+    width: 200px;
+    height: 200px;
+}
+.circle-wrap {
+    width: 128px;
+    height: 128px;
+}
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+    width: 185px;
+    height: 185px;
+    position: absolute;
+    border-radius: 50%;
+    top: 10px;
+    left: 0;
+}
+.circle-wrap .circle .mask {
+    clip: rect(3px, 106px, 141px, 43px);
+}
+.circle-wrap .circle .mask .fill {
+    clip: rect(0px, 67px, 135px, 0px);
+    border:10px solid #fff;
+}
+.circle-wrap.firstPercentage .circle .mask.full,
+.circle-wrap.firstPercentage .circle .fill {
+    animation: firstPercentage ease-in-out 4s forwards;
+}
+.circle-wrap.secondPercentage .circle .mask.full,
+.circle-wrap.secondPercentage .circle .fill {
+    animation: secondPercentage ease-in-out 4s forwards;
+}
+.circle-wrap.thirdPercentage .circle .mask.full,
+.circle-wrap.thirdPercentage .circle .fill {
+    animation: thirdPercentage ease-in-out 4s forwards;
+}
+@keyframes firstPercentage {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(160deg);
+    }
+}
+@keyframes secondPercentage {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(140deg);
+    }
+}
+@keyframes thirdPercentage {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(30deg);
+    }
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.skill-bar h4,.skill-bar span{
+    font-size: 50px;
+    font-weight: 700;
+}
+.roadmap-shedow:after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 514px;
+    height: 3000px;
+    background: url(../image/roadmap-shedow-img2.png) no-repeat top left;
+    background-size: contain;
+    z-index: -1;
+}
+.roadmap-shedow:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 514px;
+    height: 3000px;
+    background: url(../image/roadmap-shedow-img1.png) no-repeat top left;
+    background-size: contain;
+    z-index: -1;
+}
+.roadmap-title figure{
+    margin-bottom: 61px;
+}
+.roadmap-title p{
+    margin-bottom: 150px;
+}
+.roadmap-box-con .roadmap-box:nth-child(even) .roadmap-box-title{
+    width: 75%;
+    margin-left: 0;
+    padding-right: 0;
+    text-align: end;
+}
+.roadmap-box-con .roadmap-box:last-child{
+    margin-bottom: 0;
+}
+.roadmap-con{
+    margin-bottom: 120px    ;
+}
+.roadmap-con:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url(../image/roadmap-bg-img.png) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.roadmap-img-con:after{
+    content: "";
+    width: 199px;
+    height: 374px;
+    background: url(../image/open-egg.png) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    bottom: -400%;
+    right: 0;
+    z-index: -1;
+}
+.roadmap-con:before{
+    content: "";
+    width: 467px;
+    height: 493px;
+    background: url(../image/nest-img2.png) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 383px;
+    z-index: -1;
+    right: 0;
+}
+.roadmap-box{
+    background: rgba(196, 196, 196, 0.1);
+    box-shadow: inset 39.7667px -39.7667px 39.7667px rgba(149, 149, 149, 0.1), inset -39.7667px 39.7667px 39.7667px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(79.5333px);
+    padding: 18px 0 21px 0;
+    width: 81.2%;
+    margin-bottom: 54px;
+}
+.roadmap-box-static{
+    width: 202px;
+    height: 202px;
+    border-radius: 100%;
+}
+.roadmap-box-title{
+    margin-left: 254px;
+    padding-right: 34px;
+}
+.roadmap-box-title h3 {
+    margin-bottom: 16px;
+    margin-top: 18px;
+}
+.roadmap-inner-con:after{
+    content: "";
+    position: absolute;
+    bottom: -241%;
+    right: 0;
+    width: 388px;
+    background: url(../image/eag-img2.png) no-repeat center;
+    height: 510px;
+    background-size: contain;
+    z-index: -1;
+}
+.roadmap-inner-con:before {
+    content: "";
+    position: absolute;
+    top: 195%;
+    left: 0;
+    width: 333px;
+    height: 1604px;
+    background: url(../image/eag-img.png) no-repeat center;
+}
+.roadmap-title h2,
+.join-title h2{
+    margin-bottom: 50px;
+}
+/*******roadmap section********/
